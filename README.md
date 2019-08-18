@@ -1,7 +1,5 @@
-# tr
+# tr - Offline OCR
 
-
-Offline OCR 
 Tested under *Ubuntu 16.04* and *Ubuntu 18.04*
 
 
