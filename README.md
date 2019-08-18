@@ -11,4 +11,4 @@ sudo python setup.py install
 </pre>
 
 #### Example
-https://gitee.com/myhub/tr/blob/master/test.ipynb
+https://github.com/myhub/tr/blob/master/test.ipynb
