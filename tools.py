@@ -1,4 +1,4 @@
-import os
+import os, sys
 import glob
 
 BIG_FILES = ["./libtorch/lib/libtorch.so"]
@@ -54,5 +54,6 @@ if __name__ == '__main__':
     for big_file in BIG_FILES:
         split(os.path.join(_BASEDIR, big_file))
 
-        # join(os.path.join(_BASEDIR, big_file))
+        if len(sys.argv) > 1:
+            join(os.path.join(_BASEDIR, big_file))
 

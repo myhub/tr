@@ -16,13 +16,14 @@ if __name__ == "__main__":
         new_height = int(img_pil.height / scale + 0.5)
         img_pil = img_pil.resize((new_width, new_height), Image.BICUBIC)
 
-    gray_pil = img_pil.convert("L")
-
-    rect_arr = detect(img_pil, FLAG_RECT)
-
     print(img_pil.width, img_pil.height)
 
-    img_draw = ImageDraw.Draw(img_pil)
+    color_pil = img_pil.convert("RGB")
+    gray_pil = img_pil.convert("L")
+
+    rect_arr = detect(gray_pil, FLAG_RECT)
+
+    img_draw = ImageDraw.Draw(color_pil)
     colors = ['red', 'green', 'blue', "yellow", "pink"]
 
     for i, rect in enumerate(rect_arr):
@@ -32,7 +33,7 @@ if __name__ == "__main__":
             outline=colors[i % len(colors)],
             width=4)
 
-    img_pil.show()
+    color_pil.show()
 
     blank_pil = Image.new("L", img_pil.size, 255)
     blank_draw = ImageDraw.Draw(blank_pil)
