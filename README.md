@@ -11,7 +11,7 @@ sudo python setup.py install
 or pip install git+https://github.com/myhub/tr.git@master
 </pre>
 
-#### How To Use
+#### How To Use?
 <pre>
 import tr
 
