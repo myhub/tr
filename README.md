@@ -25,5 +25,5 @@ print(tr.recognize("imgs/line.png"))
 print(tr.run("imgs/name_card.jpg"))
 </pre>
 
-#### Example
+#### Test
 https://github.com/myhub/tr/blob/master/test.ipynb
