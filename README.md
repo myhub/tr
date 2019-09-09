@@ -1,4 +1,4 @@
-Pillow# tr - Offline OCR
+# tr - Offline OCR
 Tested under Python3 *Ubuntu 16.04* and *Ubuntu 18.04*
 
 
