@@ -1,5 +1,5 @@
 # tr - Offline OCR
-Tested under *Ubuntu 16.04* and *Ubuntu 18.04*
+Tested under Python3 *Ubuntu 16.04* and *Ubuntu 18.04*
 
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
  
