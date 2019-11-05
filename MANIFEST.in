@@ -1,0 +1,9 @@
+include tr/README.md
+include tr/*.txt
+
+recursive-include libtorch *.so.*
+recursive-include libtorch *.so
+
+recursive-include tr *.bin*
+recursive-include tr *.so.*
+recursive-include tr *.so
