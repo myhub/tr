@@ -45,10 +45,8 @@ if __name__ == "__main__":
 
     for i, rect in enumerate(rect_arr):
         x, y, w, h = rect
-        img_draw.rectangle(
-            (x, y, x + w, y + h),
-            outline=colors[i % len(colors)],
-            width=2)
+        for xy in [(x, y, x+w, y), (x+w, y, x+w, y+h), (x+w, y+h, x, y+h), (x, y+h, x, y)]:
+            img_draw.line(xy=xy, fill=colors[i % len(colors)], width=2)
 
     color_pil.show()
     color_pil.save("~color_pil.png")
@@ -57,9 +55,10 @@ if __name__ == "__main__":
     blank_draw = ImageDraw.Draw(blank_pil)
 
     results = run(gray_pil)
-    for line in results:
+    for i, line in enumerate(results):
         x, y, w, h = line[0]
         txt = line[1]
+        print(i, txt)
         font = ImageFont.truetype("msyh.ttf", max(int(h * 0.6), 14))
         blank_draw.text(xy=(x, y), text=txt, font=font)
 

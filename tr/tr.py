@@ -1,7 +1,7 @@
 # coding: utf-8
 import numpy
 from PIL import Image
-import os, time
+import os, time, platform
 import ctypes
 import cv2
 from functools import cmp_to_key
@@ -15,8 +15,13 @@ _BASEDIR = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(_BASEDIR, "char_table.txt"), "r", encoding="utf-8") as f:
     char_table = " " + f.read()
 
+_cwd = os.getcwd()
+os.chdir(_BASEDIR)
 
-_libc = ctypes.cdll.LoadLibrary(os.path.join(_BASEDIR, 'libtr.so'))
+if platform.system() == "Windows":
+    _libc = ctypes.cdll.LoadLibrary(os.path.join(_BASEDIR, 'libtr.dll'))
+else:
+    _libc = ctypes.cdll.LoadLibrary(os.path.join(_BASEDIR, 'libtr.so'))
 assert _libc is not None
 
 _libc.tr_init.restype = ctypes.c_int
@@ -32,8 +37,6 @@ _libc.tr_read_float.argtypes = (ctypes.c_void_p, ctypes.c_int)
 _libc.tr_read_int.restype = ctypes.c_int
 _libc.tr_read_int.argtypes = (ctypes.c_void_p, ctypes.c_int)
 
-_cwd = os.getcwd()
-os.chdir(_BASEDIR)
 _libc.tr_init()
 os.chdir(_cwd)
 

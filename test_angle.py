@@ -1,7 +1,7 @@
 # coding: utf-8
 from tr import *
 from PIL import Image, ImageDraw, ImageFont
-import cv2
+import cv2, sys, time
 
 
 if __name__ == "__main__":
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     blank_draw = ImageDraw.Draw(blank_pil)
 
     results = run_angle(gray_pil)
-    for line in results:
+    for i, line in enumerate(results):
         cx, cy, w, h, a = line[0]
         if a < -45:
             w, h = h, w
@@ -69,6 +69,7 @@ if __name__ == "__main__":
         txt_draw = ImageDraw.Draw(txt_pil)
 
         txt = line[1]
+        print(i, txt)
         font = ImageFont.truetype("msyh.ttf", max(int(h * 0.4), 12))
 
         txt_draw.text(xy=(0, 0), text=txt, font=font, fill=(0, 0, 0, 255))
