@@ -5,7 +5,7 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 
 #### 说明
 由于时间有限，暂停Windows版本的维护，将专心开发Linux版本<br>
-如果对本项目感兴趣，欢迎赞助
+本软件为测试版，不适合在实际项目中使用
 
 #### Requirements
 <pre>pip install numpy Pillow opencv-python
