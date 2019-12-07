@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # coding=utf-8
 
 from setuptools import setup, find_packages
@@ -12,8 +11,11 @@ for big_file in tools.BIG_FILES:
 appname = "tr"
 version = "1.3.0"
 
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
+try:
+    with open("README.md", "r", encoding="utf-8") as f:
+        readme = f.read()
+except:
+    readme = ""
 
 packages = ["tr", "libtorch"]
 
