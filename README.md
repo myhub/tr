@@ -4,8 +4,8 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
 #### 说明
-由于时间有限，暂停Windows版本的维护，将专心开发Linux版本<br>
-当前版本为测试版，不适合在实际项目中使用
+经过半年时间的测试与bug修复，目前本软件运行稳定，可放心在实际项目中使用。<br>
+授权协议：<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</a>
 
 #### Requirements
 <pre>pip install numpy Pillow opencv-python
@@ -43,6 +43,7 @@ print(tr.run("imgs/name_card.jpg"))
 print(tr.run_angle("imgs/id_card.jpeg"))
 </pre>
 
+<!--
 #### TODO
 - [x] 检测带角度的文本框
 - [x] 识别部分支持带角度的文本框
@@ -50,6 +51,7 @@ print(tr.run_angle("imgs/id_card.jpeg"))
 - [ ] 支持表格检测
 - [ ] 识别英文空格
 - [ ] 支持GPU/手机端
+-->
 
 #### 效果展示
 <img src="imgs/output/id_card/1.png" />

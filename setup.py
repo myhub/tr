@@ -9,7 +9,7 @@ for big_file in tools.BIG_FILES:
     tools.join(big_file)
 
 appname = "tr"
-version = "1.3.0"
+version = "1.5.0"
 
 try:
     with open("README.md", "r", encoding="utf-8") as f:
