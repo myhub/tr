@@ -31,10 +31,9 @@ setup(
     maintainer='anycode',
     maintainer_email='anycode@yahoo.com',
     packages=packages,
-    platforms=["all"],
+    platforms=["linux"],
     url='https://pypi.org/project/%s/' % appname,
     classifiers=[
-        'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries'
