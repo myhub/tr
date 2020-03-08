@@ -7,6 +7,9 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 经过半年时间的测试与bug修复，目前本软件运行稳定，可放心在实际项目中使用<br>
 授权协议：<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</a>
 
+#### TODO
+- [ ] Use ONNX Runtime instead of libtorch
+
 #### Requirements
 <pre>pip install numpy Pillow opencv-python
 </pre>
