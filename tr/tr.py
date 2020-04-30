@@ -78,7 +78,7 @@ def recognize(img):
             raise NotImplementedError()
 
         if img_pil.height != 32:
-            new_width = int(img_pil.width * 32 / img_pil.height + 0.5)
+            new_width = int(img_pil.width * 32 / (img_pil.height + 0.5))
             img_pil = img_pil.resize((new_width, 32), Image.BICUBIC)
 
         img_arr = numpy.asarray(img_pil, dtype="float32") / 255.
