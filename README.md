@@ -7,8 +7,8 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 经过半年时间的测试与bug修复，目前本软件运行稳定，可放心在实际项目中使用<br>
 授权协议：<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</a>
 <br><br>
-如果喜欢本软件，打开支付宝扫一扫，给我们一点点开发下去的动力
-<img src="zfb.jpg" width="200" />
+如果喜欢本软件，打开支付宝扫一扫，给我们一点开发下去的动力
+![zfb.jpg](https://i.loli.net/2020/05/05/vysUcV92ugCpjn6.jpg)
 
 #### TODO
 - [ ] Use ONNX Runtime instead of libtorch
