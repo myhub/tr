@@ -40,6 +40,11 @@ sudo python setup.py install
 python test_angle.py
 </pre>
 
+
+#### 关联项目
++ 若需要Web端调用，可参考<a href="https://github.com/alisen39/TrWebOCR">TrWebOCR</a>
+
+
 #### How To Use?
 <pre>import tr
 
