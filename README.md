@@ -42,7 +42,7 @@ python test_angle.py
 
 
 #### 关联项目
-+ 若需要Web端调用，可参考<a href="https://github.com/alisen39/TrWebOCR">TrWebOCR</a>
++ 若需要Web端调用，推荐参考<a href="https://github.com/alisen39/TrWebOCR">TrWebOCR</a>
 
 
 #### How To Use?
