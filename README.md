@@ -8,7 +8,7 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 授权协议：<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</a>
 <br><br>
 如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
-<a href="https://images.cnblogs.com/cnblogs_com/multisilicon/333929/o_200516035914zfb.png"><img alt="点击查看图片" width="256" src="https://images.cnblogs.com/cnblogs_com/multisilicon/333929/o_200516035914zfb.png" /></a>
+<a href="https://gitee.com/microic/tr/raw/master/zfb.png"><img alt="点击查看图片" width="256" src="https://gitee.com/microic/tr/raw/master/zfb.png" /></a>
 
 #### TODO
 - [ ] Use ONNX Runtime instead of libtorch
