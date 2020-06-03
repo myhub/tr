@@ -4,7 +4,7 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
 #### 说明
-经过半年时间的测试与bug修复，目前本软件运行稳定，可放心在实际项目中使用<br>
+经过一年时间的测试与bug修复，目前本软件运行稳定，可放心在实际项目中使用<br>
 授权协议：<a href="https://github.com/myhub/tr/blob/master/LICENSE">GNU Affero General Public License v3.0</a>
 <br><br>
 如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
