@@ -5,7 +5,7 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 
 #### 说明
 经过半年时间的测试与bug修复，目前本软件运行稳定，可放心在实际项目中使用<br>
-授权协议：<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</a>
+授权协议：<a href="https://github.com/myhub/tr/blob/master/LICENSE">GNU Affero General Public License v3.0</a>
 <br><br>
 如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
 <a href="https://gitee.com/microic/tr/raw/master/zfb.png"><img alt="点击查看图片" width="256" src="https://gitee.com/microic/tr/raw/master/zfb.png" /></a>
