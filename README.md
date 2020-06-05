@@ -9,7 +9,7 @@ Tested under Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
 <br><br>
 如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
 <a href="https://gitee.com/microic/tr/raw/master/zfb.png"><img alt="点击查看图片" width="256" src="https://gitee.com/microic/tr/raw/master/zfb.png" /></a>
-<br>已有3人共赞助36元～
+<br>已有4人共赞助46元～
 
 
 <!--
