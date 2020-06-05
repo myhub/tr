@@ -3,6 +3,10 @@ import os
 import platform
 import ctypes
 import numpy as np
+try:
+    unichr
+except NameError:
+    unichr = chr
 
 CV_8UC1 = 0
 CV_32FC1 = 5
@@ -129,7 +133,7 @@ def _parse(unicode_arr, prob_arr, num):
         unicode = unicode_arr[pos]
         if unicode >= 0:
             if unicode != unicode_pre:
-                txt += chr(unicode)
+                txt += unichr(unicode)
 
             count += 1
             prob += prob_arr[pos]
