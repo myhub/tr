@@ -1,6 +1,4 @@
 # tr - Text Recognition 
-Tested under  with *Ubuntu 16.04* and *Ubuntu 18.04*
-
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
 #### 更新说明
@@ -16,8 +14,8 @@ Tested under  with *Ubuntu 16.04* and *Ubuntu 18.04*
 Email: anycode@yahoo.com
 
 #### Requirements
-+ Python2/Python3
-+ Ubuntu 16.04/Ubuntu 18.04
++ python2/python3
++ ubuntu 16.04/ubuntu 18.04
 + numpy
 
 #### Install
