@@ -19,9 +19,13 @@ Email: anycode@yahoo.com
 + numpy
 
 #### Install
++ 安装方法一
 <pre>git clone https://github.com/myhub/tr.git
 cd ./tr
-python setup.py install
+sudo python setup.py install
+</pre>
++ 安装方法二
+<pre>sudo pip install git+https://github.com/myhub/tr.git@master
 </pre>
 
 #### Test
