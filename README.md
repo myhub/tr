@@ -15,7 +15,7 @@ Email: anycode@yahoo.com
 
 #### Requirements
 + python2/python3
-+ ubuntu 16.04/ubuntu 18.04
++ Ubuntu 16.04/Ubuntu 18.04
 + numpy
 
 #### Install
@@ -25,9 +25,11 @@ python setup.py install
 </pre>
 
 #### Test
-+ python2 demo.py               # python2兼容测试
-+ python3 test.py               # 可视化测试
-+ python3 test-multi-thread.py  # 多线程测试
+<pre>
+python2 demo.py               # python2兼容测试     
+python3 test.py               # 可视化测试
+python3 test-multi-thread.py  # 多线程测试
+</pre>
 
 #### 关联项目
 + 若需要Web端调用，推荐参考<a href="https://github.com/alisen39/TrWebOCR">TrWebOCR</a>
