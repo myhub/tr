@@ -5,9 +5,9 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 
 _BASEDIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(_BASEDIR)
 
 def test():
-    os.chdir(_BASEDIR)
     print("recognize", tr.recognize("imgs/line.png"))
     img_path = "imgs/id_card.jpeg"
     # img_path = "imgs/name_card.jpg"

@@ -3,6 +3,7 @@ import os
 import platform
 import ctypes
 import numpy as np
+
 try:
     unichr
 except NameError:
@@ -22,19 +23,17 @@ ORT_ENABLE_EXTENDED = 2
 ORT_ENABLE_ALL = 99
 
 RECT_SIZE = 6
-
+ORT_SIZE = 256
 _BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
-_cwd = os.getcwd()
-os.chdir(_BASEDIR)
 if platform.system() == "Windows":
-    _libc = ctypes.cdll.LoadLibrary(os.path.join(_BASEDIR, 'libtr.dll'))
+    raise NotImplementedError()
 else:
     _libc = ctypes.cdll.LoadLibrary(os.path.join(_BASEDIR, 'libtr.so'))
-os.chdir(_cwd)
 assert _libc is not None
 
 _libc.tr_init.argtypes = (
+    ctypes.c_int,
     ctypes.c_int,
     ctypes.c_void_p,
     ctypes.c_void_p
@@ -115,11 +114,18 @@ def c_img(arr):
         raise NotImplementedError()
 
 
-def init(id, model, arg=None):
+def init(pid, id, model, arg=None):
+    """
+    :param pid: process id
+    :param id: session id
+    :param model: model path
+    :param arg: extra arguments
+    :return: None
+    """
     _cwd = os.getcwd()
     os.chdir(_BASEDIR)
 
-    _libc.tr_init(id, c_ptr(model), arg)
+    _libc.tr_init(pid, id, c_ptr(model), arg)
 
     os.chdir(_cwd)
 
@@ -177,7 +183,12 @@ def release(*args):
         _libc.tr_release(arg)
 
 
-def run(img, max_lines=512, flag=FLAG_ROTATED_RECT, max_width=512, ctpn_id=0, crnn_id=1):
+def run(img,
+        max_lines=512,
+        flag=FLAG_ROTATED_RECT,
+        max_width=512,
+        ctpn_id=0,
+        crnn_id=1):
     rect_arr = np.zeros((max_lines, RECT_SIZE), dtype="float32")
     unicode_arr = np.zeros((max_lines, max_width), dtype="int32")
     prob_arr = np.zeros((max_lines, max_width), dtype="float32")
@@ -202,8 +213,8 @@ def run(img, max_lines=512, flag=FLAG_ROTATED_RECT, max_width=512, ctpn_id=0, cr
     return results
 
 
-init(0, "ctpn.bin")
-init(1, "crnn.bin")
+init(0, 0, "ctpn.bin")
+init(0, 1, "crnn.bin")
 
 if __name__ == "__main__":
     pass

@@ -1,39 +1,35 @@
 # tr - Text Recognition 
-Tested under Python2/Python3 with *Ubuntu 16.04* and *Ubuntu 18.04*
+Tested under  with *Ubuntu 16.04* and *Ubuntu 18.04*
 
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
-#### 说明
+#### 更新说明
 + 添加python2支持
-+ 去除python-opencv、Pillow依赖，降低部署难度
++ 去除opencv-python、Pillow依赖，降低部署难度
++ 支持多线程
 
-<br>
-授权协议：<a href="https://github.com/myhub/tr/blob/master/LICENSE">GNU Affero General Public License v3.0</a>
-<br><br>
 如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
 <a href="https://gitee.com/microic/tr/raw/master/zfb.png"><img alt="点击查看图片" width="256" src="https://gitee.com/microic/tr/raw/master/zfb.png" /></a>
 <br>已有4人共赞助46元～
 
-
-<!--
-#### TODO
-- [x] 检测带角度的文本框
-- [x] 识别部分支持带角度的文本框
-- [ ] 优化识别部分代码
-- [ ] 支持表格检测
-- [ ] 识别英文空格
-- [ ] 支持GPU/手机端
--->
+#### Contact
+Email: anycode@yahoo.com
 
 #### Requirements
-<pre>pip install numpy
-</pre>
++ Python2/Python3
++ Ubuntu 16.04/Ubuntu 18.04
++ numpy
+
 #### Install
 <pre>git clone https://github.com/myhub/tr.git
 cd ./tr
-python demo.py
+python setup.py install
 </pre>
 
+#### Test
++ python2 demo.py               # python2兼容测试
++ python3 test.py               # 可视化测试
++ python3 test-multi-thread.py  # 多线程测试
 
 #### 关联项目
 + 若需要Web端调用，推荐参考<a href="https://github.com/alisen39/TrWebOCR">TrWebOCR</a>
