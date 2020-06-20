@@ -8,7 +8,7 @@
 
 如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
 <a href="https://gitee.com/microic/tr/raw/master/zfb.png"><img alt="点击查看图片" width="256" src="https://gitee.com/microic/tr/raw/master/zfb.png" /></a>
-<br>已有4人共赞助46元～
+<br>已有5人共赞助56元～
 
 #### Contact
 Email: anycode@yahoo.com
