@@ -23,6 +23,7 @@ Email: anycode@yahoo.com
 + 安装nvidia-docker
 + docker pull mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
 + sudo nvidia-docker run -it onnxruntime:v1.3.0-cuda10.1-cudnn7
++ 待更新
 
 #### Install
 + 安装方法一
