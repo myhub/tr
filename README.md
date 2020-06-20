@@ -1,7 +1,7 @@
 # tr - Text Recognition 
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
-#### 更新说明
+#### 说明
 + 添加python2支持
 + 去除opencv-python、Pillow依赖，降低部署难度
 + 支持多线程
@@ -17,6 +17,11 @@ Email: anycode@yahoo.com
 + python2/python3
 + Ubuntu 16.04/Ubuntu 18.04
 + numpy
+
+#### GPU版本安装说明
++ 安装nvidia-docker
++ docker pull mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
++ sudo nvidia-docker run -it onnxruntime:v1.3.0-cuda10.1-cudnn7
 
 #### Install
 + 安装方法一
