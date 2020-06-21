@@ -23,11 +23,10 @@ Email: anycode@yahoo.com
 
 #### GPU版本安装说明
 如果对速度有要求，推荐安装GPU版本<br>
-要使用GPU版本，复制tr_gpu文件夹里面的文件到tr文件夹即可<br>
-
-Notice: Install CUDA 10.1 and cuDNN 7.6.5 first<br>
-You can also use docker:
-+ Install nvidia-docker
+要使用GPU版本，复制tr_gpu文件夹里面的文件到tr文件夹<br>
+注意: 需要先安装CUDA 10.1以及cuDNN 7.6.5<br>
+<br>
+<b>也可以使用docker部署</b>
 + docker pull mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
 + sudo nvidia-docker run -v /path/to/tr:/path/to/tr --rm -it mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
 
