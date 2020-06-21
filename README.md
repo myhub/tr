@@ -27,7 +27,7 @@ Notice: Install CUDA 10.1 and cuDNN 7.6.5 first<br>
 You can also use docker:
 + Install nvidia-docker
 + docker pull mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
-+ sudo nvidia-docker run -v /path/to/tr:/path/to/tr --name onnx130 -it mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
++ sudo nvidia-docker run -v /path/to/tr:/path/to/tr --rm -it mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
 
 #### Install
 + 安装方法一
