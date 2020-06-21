@@ -5,6 +5,7 @@
 + 添加python2支持
 + 去除opencv-python、Pillow依赖，降低部署难度
 + 支持多线程
++ 支持GPU
 
 如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
 <a href="https://gitee.com/microic/tr/raw/master/zfb.png"><img alt="点击查看图片" width="256" src="https://gitee.com/microic/tr/raw/master/zfb.png" /></a>
@@ -19,11 +20,14 @@ Email: anycode@yahoo.com
 + numpy
 
 #### GPU版本安装说明
-如果对速度有要求，推荐安装GPU版本，大概提升5倍
-+ 安装nvidia-docker
+如果对速度有要求，推荐安装GPU版本，大概提升5倍<br>
+要使用GPU版本，复制tr_gpu文件夹里面的文件到tr文件夹即可<br>
+
+Notice: Install CUDA 10.1 and cuDNN 7.6.5 first<br>
+You can also use docker:
++ Install nvidia-docker
 + docker pull mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
 + sudo nvidia-docker run -v /path/to/tr:/path/to/tr --name onnx130 -it mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
-+ 待更新
 
 #### Install
 + 安装方法一
