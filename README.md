@@ -22,7 +22,7 @@ Email: anycode@yahoo.com
 + numpy
 
 #### GPU版本安装说明
-如果对速度有要求，推荐安装GPU版本，大概提升5倍<br>
+如果对速度有要求，推荐安装GPU版本<br>
 要使用GPU版本，复制tr_gpu文件夹里面的文件到tr文件夹即可<br>
 
 Notice: Install CUDA 10.1 and cuDNN 7.6.5 first<br>
