@@ -22,7 +22,7 @@ Email: anycode@yahoo.com
 如果对速度有要求，推荐安装GPU版本，大概提升5倍
 + 安装nvidia-docker
 + docker pull mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
-+ sudo nvidia-docker run -it onnxruntime:v1.3.0-cuda10.1-cudnn7
++ sudo nvidia-docker run -v /path/to/tr:/path/to/tr --name onnx130 -it mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
 + 待更新
 
 #### Install
