@@ -1,7 +1,7 @@
 # tr - Text Recognition 
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
-#### 说明
+#### 更新说明
 + 添加python2支持
 + 去除opencv-python、Pillow依赖，降低部署难度
 + 支持多线程
