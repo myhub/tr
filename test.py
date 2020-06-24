@@ -8,13 +8,6 @@ _BASEDIR = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_BASEDIR)
 
 
-def img(img_path, max_size=1600, img_mode="L"):
-    from PIL import Image
-    img_pil = Image.open(img_path)
-
-
-
-
 def test():
     print("recognize", tr.recognize("imgs/line.png"))
 
