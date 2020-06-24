@@ -69,6 +69,14 @@ _libc.tr_run.argtypes = (
     ctypes.c_int
 )
 
+_libc.tr_crnn.restype = ctypes.c_int
+_libc.tr_crnn.argtypes = (
+    ctypes.c_int,
+    ctypes.c_void_p, ctypes.c_int, ctypes.c_int,
+    ctypes.c_void_p,
+    ctypes.c_void_p,
+    ctypes.c_int
+)
 
 def c_ptr(arr):
     if not isinstance(arr, (np.ndarray, str)):
@@ -147,6 +155,26 @@ def _parse(unicode_arr, prob_arr, num):
         unicode_pre = unicode
 
     return txt, float(prob / max(count, 1))
+
+
+def crnn(img, max_items=512*7000, crnn_id=1):
+    buf_arr = np.zeros((max_items,), dtype="float32")
+    shape_arr = np.zeros((8,), dtype="int32")
+    img = c_img(img)
+
+    assert img[3] == CV_32FC1
+    assert img[1] == 32
+
+    num = _libc.tr_crnn(
+        crnn_id,
+        img[0], img[1], img[2],
+        c_ptr(buf_arr),
+        c_ptr(shape_arr),
+        max_items
+    )
+
+    buf_arr = buf_arr[:num]
+    return buf_arr.reshape(shape_arr[0], shape_arr[2])
 
 
 def recognize(img, max_width=512, crnn_id=1):
