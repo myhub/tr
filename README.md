@@ -2,16 +2,11 @@
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
 #### 更新说明
++ 支持Windows
 + 添加python2支持
 + 去除opencv-python、Pillow依赖，降低部署难度
 + 支持多线程
 + 支持GPU
-
-<!--
-如果喜欢本软件，打开支付宝扫一扫，您的赞助是我们开发的最大动力<br>
-<a href="https://gitee.com/microic/tr/raw/master/zfb.png"><img alt="点击查看图片" width="256" src="https://gitee.com/microic/tr/raw/master/zfb.png" /></a>
-<br>已有5人共赞助56元～
--->
 
 #### Contact
 Email: anycode@yahoo.com
