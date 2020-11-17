@@ -30,9 +30,9 @@ _cwd = os.getcwd()
 os.chdir(_BASEDIR)
 
 if platform.system() == "Windows":
-	_libc = ctypes.cdll.LoadLibrary('libtr.dll')
+	_libc = ctypes.cdll.LoadLibrary('./libtr.dll')
 else:
-    _libc = ctypes.cdll.LoadLibrary('libtr.so')
+    _libc = ctypes.cdll.LoadLibrary('./libtr.so')
 assert _libc is not None
 os.chdir(_cwd)
 
