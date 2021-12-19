@@ -4,7 +4,7 @@ from setuptools import setup
 import os
 
 appname = "tr"
-version = "2.3.0"
+version = "2.3.1"
 
 try:
     with open("README.md", "r", encoding="utf-8") as f:
