@@ -1,5 +1,7 @@
 # tr - Text Recognition 
-一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
+一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供python接口
+
+*Ubuntu 16*
 
 #### 更新说明
 + c++接口支持
@@ -7,9 +9,7 @@
 + 去除opencv-python、Pillow依赖，降低部署难度
 + 支持多线程
 + 支持GPU
-
-#### Contact
-Email: anycode@yahoo.com
++ 取消对Windows系统的支持
 
 #### Requirements
 + python2/python3，需要安装numpy
@@ -36,7 +36,7 @@ sudo python setup.py install
 
 #### Test
 <pre>
-python2 demo.py               # python2兼容测试     
+python2 demo.py               # python2兼容测试
 python3 test.py               # 可视化测试
 python3 test-multi-thread.py  # 多线程测试
 </pre>
