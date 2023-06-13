@@ -1,6 +1,5 @@
 # tr - Text Recognition 
 
-
 ## 新版本开发中
 tr新版本邀请大家使用和评测（暂时只更新了文本行识别模型）<br>
 https://github.com/myhub/tr/tree/v2.5.1
