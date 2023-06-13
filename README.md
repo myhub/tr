@@ -13,7 +13,7 @@ https://github.com/myhub/tr/tree/v2.5.1
 
 新版本技术支持：anycode@yahoo.com
 ```
-
+----
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
 编译环境: *Ubuntu 16.04*
