@@ -1,5 +1,5 @@
 # tr - Text Recognition 
-
+<!-- 
 ## 新版本开发中
 tr新版本邀请大家使用和评测（暂时只更新了文本行识别模型）<br>
 https://github.com/myhub/tr/tree/v2.5.1
@@ -13,7 +13,7 @@ https://github.com/myhub/tr/tree/v2.5.1
 
 新版本技术支持：anycode@yahoo.com
 ```
-----
+---- -->
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
 编译环境: *Ubuntu 16.04*
