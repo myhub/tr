@@ -44,6 +44,7 @@ sudo python setup.py install
 python2 demo.py               # python2兼容测试
 python3 test.py               # 可视化测试
 python3 test-multi-thread.py  # 多线程测试
+python3 test_crnn_pyqt5.py    # 截图识别
 </pre>
 
 #### 关联项目
