@@ -29,10 +29,12 @@ class Main(QDialog):
         self.textEdit = QPlainTextEdit(self)
 
         font = QFont()
-        font.setPointSize(24)
+        font.setPointSize(18)
         self.textEdit.setFont(font)
-        self.resize(640, 160)
-        
+        self.resize(640, 240)
+        self.setWindowTitle("请使用飞书、微信等软件进行截图，只支持单行文本识别")
+        self.setWindowFlags(Qt.WindowStaysOnTopHint)
+
         layout = QGridLayout(self)
         layout.addWidget(self.textEdit, 1, 0)
         self.setLayout(layout)
