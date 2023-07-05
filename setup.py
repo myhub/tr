@@ -34,7 +34,6 @@ setup(
         'Topic :: Software Development :: Libraries'
     ],
     install_requires=[
-        "numpy"
     ],
     include_package_data=True,
 

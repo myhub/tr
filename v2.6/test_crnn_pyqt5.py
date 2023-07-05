@@ -33,7 +33,7 @@ class Main(QDialog):
         font.setPointSize(18)
         self.textEdit.setFont(font)
         self.resize(640, 240)
-        self.setWindowTitle("请使用飞书、微信等软件进行截图，只支持单行文本识别")
+        self.setWindowTitle("请使用飞书、微信等软件进行截图，只支持单行文本识别 v2.6")
         self.setWindowFlags(Qt.WindowStaysOnTopHint)
 
         layout = QGridLayout(self)
