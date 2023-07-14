@@ -11,7 +11,7 @@
 + 不支持Windows、CentOS 6、Ubuntu16、ARM
 
 #### Install
-<pre>pip install tr==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+<pre>pip install tr==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 </pre>
 
 #### Test

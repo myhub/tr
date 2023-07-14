@@ -26,7 +26,7 @@ class Main(QDialog):
     def __init__(self):
         super().__init__()
 
-        self.crnn = tr.CRNN()
+        self.crnn = tr.CRNN(model_path="model_crnn.onnx")
         self.textEdit = QPlainTextEdit(self)
 
         font = QFont()
