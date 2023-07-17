@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding: utf-8
 import tr
 from pathlib import Path
