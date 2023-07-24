@@ -12,6 +12,9 @@
 
 #### Install
 <pre>pip install tr==2.6.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+说明：采用不同技术方案训练的模型精度速度有差异，可以按需下载
+模型下载：*https://github.com/myhub/tr/releases/tag/2.6.1*
 </pre>
 
 #### Test
