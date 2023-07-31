@@ -11,7 +11,7 @@
 + 不支持Windows、CentOS 6、Ubuntu16、ARM
 
 #### Install
-<pre>pip install tr==2.6.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
+<pre>pip install tr==2.6.5 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 模型下载：https://github.com/myhub/tr/releases/tag/2.6.1
 说明：采用不同技术方案训练的模型精度速度有差异，可以按需下载，下载后替换crnn.bin文件即可
