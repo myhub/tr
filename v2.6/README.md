@@ -6,7 +6,7 @@
 
 #### Requirements
 + python3，需要安装numpy
-+ 暂不支持macOS
++ 支持Windows/Linux系统，暂不支持macOS
 
 #### Install
 <pre>pip install tr==2.6.7 -i https://pypi.tuna.tsinghua.edu.cn/simple
