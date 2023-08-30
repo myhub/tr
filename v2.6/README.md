@@ -4,14 +4,12 @@
 
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
-编译环境: *ubuntu18.04*
-
 #### Requirements
 + python3，需要安装numpy
-+ 不支持Windows、CentOS 6、Ubuntu16、ARM
++ 暂不支持macOS
 
 #### Install
-<pre>pip install tr==2.6.6 -i https://pypi.tuna.tsinghua.edu.cn/simple
+<pre>pip install tr==2.6.7 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 模型下载：https://github.com/myhub/tr/releases/tag/2.6.1
 说明：采用不同技术方案训练的模型精度速度有差异，可以按需下载，下载后替换crnn.bin文件即可
