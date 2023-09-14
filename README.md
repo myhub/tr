@@ -5,11 +5,12 @@
 编译环境: *Ubuntu 16.04*
 
 #### 新版本体验v2.6
-采用当前流行的YOLO系列主干网络<br>
++ 采用当前流行的YOLO系列主干网络<br>
 https://github.com/myhub/tr/tree/master/v2.6
 
 #### 新版本体验v2.7
-采用类似Transformer层替代部分LSTM层<br>
++ 采用类似Transformer层替代部分LSTM层，进一步加快模型收敛速度
++ 删除部分人工标注样本，仅保留200多个真实样本，进一步降低人工智能中的人工成分
 https://github.com/myhub/tr/tree/master/v2.7
 
 #### 更新说明

@@ -4,9 +4,6 @@
 
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
-#### 新版本说明
-+ 采用类似Transformer层替代部分LSTM层，进一步加快模型收敛速度
-
 #### Requirements
 + python3，需要安装numpy
 + 支持Linux系统，暂不支持macOS/Windows
