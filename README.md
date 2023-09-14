@@ -5,11 +5,11 @@
 编译环境: *Ubuntu 16.04*
 
 #### 新版本体验v2.6
-v2.6采用当前流行的YOLO系列主干网络
+采用当前流行的YOLO系列主干网络<br>
 https://github.com/myhub/tr/tree/master/v2.6
 
 #### 新版本体验v2.7
-v2.7进一步加入类似Transformer层
+进一步加入类似Transformer层<br>
 https://github.com/myhub/tr/tree/master/v2.7
 
 #### 更新说明
