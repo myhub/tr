@@ -4,8 +4,13 @@
 
 编译环境: *Ubuntu 16.04*
 
-#### 新版本体验 
+#### 新版本体验v2.6
+v2.6采用当前流行的YOLO系列主干网络
 https://github.com/myhub/tr/tree/master/v2.6
+
+#### 新版本体验v2.7
+v2.7进一步加入类似Transformer层
+https://github.com/myhub/tr/tree/master/v2.7
 
 #### 更新说明
 + c++接口支持
