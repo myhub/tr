@@ -9,7 +9,7 @@
 https://github.com/myhub/tr/tree/master/v2.6
 
 #### 新版本体验v2.7
-进一步加入类似Transformer层<br>
+采用类似Transformer层替代部分LSTM层<br>
 https://github.com/myhub/tr/tree/master/v2.7
 
 #### 更新说明
