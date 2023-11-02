@@ -3,10 +3,10 @@
 一款针对扫描文档的离线文本识别SDK，核心代码全部采用C++开发，并提供Python接口
 
 编译环境: *Ubuntu 16.04*
-
+<!--
 #### 近期开发方向
 + 将CRNN与Transformer模型结合从而让CRNN支持多行文本的识别，初步验证有效
-
+-->
 #### v2.6版本体验
 + 采用当前流行的YOLO系列主干网络
 <br>https://github.com/myhub/tr/tree/master/v2.6
