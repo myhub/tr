@@ -9,7 +9,7 @@
 -->
 
 #### 新版本体验
-<br>https://github.com/myhub/tr/tree/master/v2.8
+https://github.com/myhub/tr/tree/master/v2.8
 + 采用当前流行的YOLO系列主干网络
 + 加入轻量级Transformer Encoder结构提升模型根据上下文纠错的能力
 + 降低对真实样本的依赖，训练集仅仅包含100多个真实样本
