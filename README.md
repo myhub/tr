@@ -14,6 +14,16 @@ https://github.com/myhub/tr/tree/master/v2.8
 + 加入轻量级Transformer Encoder结构提升模型根据上下文纠错的能力
 + 降低对真实样本的依赖，训练集仅仅包含100多个真实样本
 
+<pre>
+安装
+pip install tr==2.8.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+代码示例
+import tr
+crnn = tr.CRNN()                                # 初始化文本行识别网络
+chars, scores = crnn.run("imgs/line.png")       # 识别文本行
+print("".join(chars))                           # 打印结果
+</pre>
+
 <!--
 #### v2.6版本体验
 + 采用当前流行的YOLO系列主干网络
