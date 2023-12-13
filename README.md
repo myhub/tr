@@ -7,9 +7,18 @@
 #### 近期开发方向
 + 将CRNN与Transformer模型结合从而让CRNN支持多行文本的识别，初步验证有效
 -->
+
+#### 新版本体验
++ 采用当前流行的YOLO系列主干网络
++ 加入轻量级Transformer Encoder结构提升模型根据上下文纠错的能力
++ 降低对真实样本的依赖，训练集仅仅包含100多个真实样本
+<br>https://github.com/myhub/tr/tree/master/v2.8
+
+<!--
 #### v2.6版本体验
 + 采用当前流行的YOLO系列主干网络
 <br>https://github.com/myhub/tr/tree/master/v2.6
+-->
 
 <!-- #### 新版本体验v2.7
 + 采用Attention层替代部分LSTM层，进一步加快模型收敛速度
