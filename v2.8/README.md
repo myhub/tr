@@ -9,7 +9,7 @@
 + 支持Linux系统，暂不支持Windows/macOS
 
 #### Install
-<pre>pip install tr==2.8.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+<pre>pip install tr==2.8.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 </pre>
 
 #### Test

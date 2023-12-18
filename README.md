@@ -7,6 +7,7 @@
 #### 近期开发方向
 + 将CRNN与Transformer模型结合从而让CRNN支持多行文本的识别，初步验证有效
 -->
+
 -----------------------------------------
 #### 新版本体验
 https://github.com/myhub/tr/tree/master/v2.8
@@ -16,14 +17,23 @@ https://github.com/myhub/tr/tree/master/v2.8
 
 **Install 安装:**
 <pre>
-pip install tr==2.8.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install tr==2.8.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+说明： 不同版本的精度有差异，新版本精度不一定更高
+旧版本安装：
++ pip install tr==2.8.1
 </pre>
+
 **Example 代码示例:**
 <pre>
 import tr
 crnn = tr.CRNN()                                # 初始化文本行识别网络
 chars, scores = crnn.run("imgs/line.png")       # 识别文本行
 print("".join(chars))                           # 打印结果
+</pre>
+
+**UI 截图识别**
+<pre>
+python -m tr.gui
 </pre>
 -----------------------------------------
 <!--
