@@ -31,7 +31,7 @@ chars, scores = crnn.run("imgs/line.png")       # 识别文本行
 print("".join(chars))                           # 打印结果
 </pre>
 
-**UI 截图识别**
+**GUI 截图识别**
 <pre>
 python -m tr.gui
 </pre>
