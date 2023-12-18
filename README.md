@@ -33,6 +33,7 @@ print("".join(chars))                           # 打印结果
 
 **GUI 截图识别**
 <pre>
+# 需要安装PyQt5，PIL依赖
 python -m tr.gui
 </pre>
 -----------------------------------------
