@@ -6,10 +6,13 @@
 
 #### Requirements
 + python3，需要安装numpy
-+ 支持Linux系统，暂不支持Windows/macOS
++ 支持Linux/Windows系统，暂不支持macOS
 
 #### Install
 <pre>pip install tr==2.8.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+Windows 64位系统安装：
+pip install tr==2.8.6 -i https://pypi.org/simple/
 </pre>
 
 #### Test
