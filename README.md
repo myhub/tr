@@ -21,6 +21,9 @@ pip install tr==2.8.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 说明： 不同版本的精度有差异，新版本精度不一定更高
 旧版本安装：
 + pip install tr==2.8.1
+
+Windows 64位系统安装：
+pip install tr==2.8.6 -i https://pypi.org/simple/
 </pre>
 
 **Example 代码示例:**
