@@ -9,11 +9,13 @@
 + 多行CRNN<br>
 将CRNN与2D Transformer结合，从而使CRNN支持多行文本的识别，损失函数依然使用CTCLoss。适用于弯曲文本识别等场景。
 + OCR-free Document Understanding<br>
-目前端到端文档理解（不依赖现有OCR模型）虽然精度有待提升，不过我还是觉得很有前途的，可以一个模型实现文字、图表、公式等内容的提取。   
+目前端到端文档理解（不需要先进行文本行检测、识别）虽然精度有待提升，不过我还是觉得很有前途的，可以一个模型实现文字、图表、公式等内容的提取。   
 ```
 参考项目：
   https://github.com/clovaai/donut
   https://github.com/Ucas-HaoranWei/Vary
+技术讨论：
+  https://github.com/myhub/tr/discussions/165
 ```
 -----------------------------------------
 #### 新版本体验
