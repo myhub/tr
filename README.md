@@ -8,17 +8,14 @@
 #### 近期开发方向
 + 多行文本识别 CRNN For Text With Multiple Lines<br>
 将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别，标注时不再需要标注文本行的边界框。适用于弯曲文本识别等场景。<br>
-实验结果：在256*256大小的图片上，精度已经非常接近甚至超过先检测文本行再识别的两阶段方案，缺点是对动态尺寸支持不好。
+实验结果：在256*256大小的图片上，精度已经非常接近甚至超过先检测文本行再识别的两阶段方案，缺点是对动态尺寸支持不好。<br>
+抢鲜体验：https://github.com/myhub/tr/tree/master/crnn_for_text_with_multiple_lines
+
 
 + OCR-free Document Understanding<br>
-目前端到端文档理解（不需要先进行文本行检测、识别）虽然精度有待提升，不过我还是觉得很有前途的，可以一个模型实现文字、图表、公式等内容的提取。   
-```
-参考项目：
-  https://github.com/clovaai/donut
-  https://github.com/Ucas-HaoranWei/Vary
-技术讨论：
-  https://github.com/myhub/tr/discussions/165
-```
+目前端到端文档理解（不需要先进行文本行检测、识别）虽然精度有待提升，不过我还是觉得很有前途的，可以一个模型实现文字、图表、公式等内容的提取。<br>
+技术讨论：https://github.com/myhub/tr/discussions/165
+
 -----------------------------------------
 #### 新版本体验
 https://github.com/myhub/tr/tree/master/v2.8
