@@ -6,8 +6,8 @@
 
 -----------------------------------------
 #### 近期开发方向
-+ 多行CRNN<br>
-将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别，标注时不再需要标注文本行的边界框。损失函数依然使用CTCLoss。适用于弯曲文本识别等场景。<br>
++ 多行文本识别 CRNN For Text With Multiple Lines<br>
+将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别，标注时不再需要标注文本行的边界框。适用于弯曲文本识别等场景。<br>
 实验结果：在256*256大小的图片上，精度已经非常接近甚至超过先检测文本行再识别的两阶段方案，缺点是对动态尺寸支持不好。
 
 + OCR-free Document Understanding<br>
