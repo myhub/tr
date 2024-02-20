@@ -9,7 +9,7 @@
 
 所以我想如果CRNN能够支持多行文本的识别，那么在一些场景下就不需要做文本行检测了，正好现在Transformer很火，不管啥模型加点Transformer似乎都可以提升精度，基于以上想法我做了一些实验，供大家参考。由于模型结构跟CRNN相比几乎没啥修改（仅仅添加了Transformer Encoder来提升模型对全局上下文的学习能力），损失函数也使用CTCLoss，训练代码跟CRNN也相同，所以还是属于CRNN。
 
-#### 测试
+#### 推理测试
 <pre>
 下载https://github.com/myhub/tr/releases/download/2.8.1/crnn_plus_v1_0.zip文件后解压
 
