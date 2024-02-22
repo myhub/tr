@@ -5,7 +5,7 @@
 编译环境: *Ubuntu 16.04*
 
 -----------------------------------------
-#### 让CRNN支持多行文本的识别 CRNN For Text With Multiple Lines
+#### :star:让CRNN支持多行文本的识别 CRNN For Text With Multiple Lines
 将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别，标注时不再需要标注文本行的边界框。<br>
 实验结果：在非弯曲文本上跟先检测文本行再识别的两阶段方案精度差不多，在弯曲文本上优势明显。<br>
 抢鲜体验：[crnn_for_text_with_multiple_lines](https://github.com/myhub/tr/tree/master/crnn_for_text_with_multiple_lines)
