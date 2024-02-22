@@ -5,10 +5,9 @@
 编译环境: *Ubuntu 16.04*
 
 -----------------------------------------
-#### 近期开发方向
-+ 多行文本识别 CRNN For Text With Multiple Lines<br>
-将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别，标注时不再需要标注文本行的边界框。适用于弯曲文本识别等场景。<br>
-实验结果：在384*384大小的图片上，精度已经非常接近甚至超过先检测文本行再识别的两阶段方案，推理速度更快。<br>
+#### 让CRNN支持多行文本的识别 CRNN For Text With Multiple Lines
+将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别，标注时不再需要标注文本行的边界框。<br>
+实验结果：在非弯曲文本上精度已经非常接近甚至超过先检测文本行再识别的两阶段方案，在弯曲文本上优势明显。<br>
 抢鲜体验：[crnn_for_text_with_multiple_lines](https://github.com/myhub/tr/tree/master/crnn_for_text_with_multiple_lines)
 
 
@@ -17,7 +16,7 @@
 技术讨论：[discussions](https://github.com/myhub/tr/discussions/165) -->
 
 -----------------------------------------
-#### 新版本体验
+#### 带Transformer的CRNN
 https://github.com/myhub/tr/tree/master/v2.8
 + 采用当前流行的YOLO系列主干网络
 + 加入轻量级Transformer Encoder结构提升模型根据上下文纠错的能力
