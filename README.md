@@ -6,12 +6,8 @@
 
 -----------------------------------------
 #### 让CRNN支持多行文本的识别 CRNN For Text With Multiple Lines :star:
-将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别，标注时不再需要标注文本行的边界框。<br>
-**适用场景**
-+ 弯曲文本或文本行难以分割的场景
-+ 需要减少标注和模型开发工作量的项目
+将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别。标注时不再需要标注文本行的边界框，大大降低标注和开发人员的工作量。适用于弯曲文本等场景。<br>
 抢鲜体验：[crnn_for_text_with_multiple_lines](https://github.com/myhub/tr/tree/master/crnn_for_text_with_multiple_lines)
-
 
 <!-- + OCR-free Document Understanding<br>
 目前端到端文档理解（不需要先进行文本行检测、识别）虽然精度有待提升，不过我还是觉得很有前途的，可以一个模型实现文字、图表、公式等内容的提取。<br>
