@@ -23,7 +23,7 @@
 
 #### 推理测试
 <pre>
-下载https://github.com/myhub/tr/releases/download/2.8.1/crnn_plus_v1_0.zip文件后解压
+下载 https://github.com/myhub/tr/releases/download/2.8.1/crnn_plus_v1_2.zip 文件后解压
 
 python test.py
 
