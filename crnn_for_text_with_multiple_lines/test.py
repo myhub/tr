@@ -27,7 +27,6 @@ img_list = ['_img.png']
 for img_path in img_list:
     print(img_path)
     try:
-        assert 0
         img = cv2.imread(str(img_path), 0)
     except:
         img = PIL.Image.open(str(img_path)).convert("L")
