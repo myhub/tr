@@ -15,4 +15,6 @@
   
 **/__pycache__
 
+/crnn_for_text_with_multiple_lines/*.bin
+/crnn_for_text_with_multiple_lines/*.onnx
 
