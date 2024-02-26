@@ -9,7 +9,7 @@ from pathlib import Path
 try:
     import ort
 except:
-    print("install ort first by pip install ort==1.0.5")
+    raise Exception("install ort first by pip install ort==1.0.5")
 
 os.chdir(Path(__file__).parent)
 
@@ -22,7 +22,9 @@ net = ort.Ort(
 
 SIZE = 384
 
-img_list = ['_img.png']
+img_list = list(Path("./imgs/").glob("*.png"))
+img_list += list(Path("./imgs/").glob("*.jpg"))
+img_list.sort()
 
 for img_path in img_list:
     print(img_path)
