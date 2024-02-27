@@ -7,7 +7,7 @@
 -----------------------------------------
 #### 让CRNN支持多行文本的识别 CRNN For Text With Multiple Lines :star:
 将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别。标注时不再需要标注文本行的边界框，大大降低标注和开发人员的工作量。适用于弯曲文本等场景。<br>
-如果您要识别的图片类似以下图片，使用现有OCR无法解决时，那么多行CRNN将是您的最好选择之一。
+如果您要识别的图片类似于以下图片，使用现有OCR无法解决时，那么多行CRNN将是您的最好选择之一。
 <div>
 <img width="180px" src="crnn_for_text_with_multiple_lines/imgs/test1.png" style="float:left;width:180px;" />
 <img width="180px" src="crnn_for_text_with_multiple_lines/imgs/test2.png" style="float:left;width:180px;" />
