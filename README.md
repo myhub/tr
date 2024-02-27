@@ -18,8 +18,10 @@
 <img width="180px" src="crnn_for_text_with_multiple_lines/imgs/test7.jpg" style="float:left;width:180px;" />
 <img width="180px" src="crnn_for_text_with_multiple_lines/imgs/test8.png" style="float:left;width:180px;" />
 </div>
-<div style="clear:both;"></div><br>
-抢鲜体验：[crnn_for_text_with_multiple_lines](https://github.com/myhub/tr/tree/master/crnn_for_text_with_multiple_lines)
+<div style="clear:both;"></div><br />
+
+抢鲜体验：
+[crnn_for_text_with_multiple_lines](https://github.com/myhub/tr/tree/master/crnn_for_text_with_multiple_lines)
 
 <!-- + OCR-free Document Understanding<br>
 目前端到端文档理解（不需要先进行文本行检测、识别）虽然精度有待提升，不过我还是觉得很有前途的，可以一个模型实现文字、图表、公式等内容的提取。<br>
