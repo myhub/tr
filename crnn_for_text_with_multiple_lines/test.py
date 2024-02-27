@@ -25,8 +25,10 @@ net = ort.Ort(
 
 SIZE = 384
 
-img_list = list(Path("./imgs/").glob("*.png"))
-img_list += list(Path("./imgs/").glob("*.jpg"))
+test_dir = Path("./imgs/")
+
+img_list = list(Path(test_dir).glob("*.png"))
+img_list += list(Path(test_dir).glob("*.jpg"))
 img_list.sort()
 
 for img_path in img_list:
