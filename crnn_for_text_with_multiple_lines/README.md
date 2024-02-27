@@ -33,4 +33,12 @@
 执行 python test.py 即可
 </pre>
 
+#### 实验笔记
++ 为什么不使用Transformer Decoder，而是使用CTCLoss?
+一开始我使用Transformer Decoder，后面改成了CTCLoss，感觉使用Transformer Decoder时识别的文本靠前的部分比较准确，靠后的部分不太准确。可能的原因：<br>
+1、Transformer Decoder是根据上文预测下一个字符，如果上文中某些字符识别错误，会影响下一个字符的识别准确度<br>
+2、训练样本文本长度随机分布，Transformer Decoder依赖位置编码（Positional Encoding），越靠后的字符所在的位置训练的越少
+
+
+
 

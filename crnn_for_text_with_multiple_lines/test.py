@@ -13,9 +13,12 @@ except:
 
 os.chdir(Path(__file__).parent)
 
+model_path = "crnn_plus.bin"
+assert Path(model_path).exists()
+
 char_table = Path("char_table.txt").read_text()
 net = ort.Ort(
-    model_path="crnn_plus.bin",
+    model_path=model_path,
     input_names=["INPUT__0"],
     output_names=["OUTPUT__0", "OUTPUT__1"],
 )
