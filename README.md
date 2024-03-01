@@ -83,15 +83,16 @@ python -m tr.gui
 + python2/python3，需要安装numpy
 + 不支持Windows、CentOS 6、ARM
 
-#### GPU版本安装说明
+<!-- #### GPU版本安装说明
+**由于新型号的显卡需要更高版本的CUDA，GPU版本暂时只支持旧型号的显卡。**<br>
 如果对速度有要求，推荐安装GPU版本<br>
 要使用GPU版本，复制tr_gpu文件夹里面的文件到tr文件夹<br>
-注意: 需要先安装CUDA 10.1以及cuDNN 7.6.5<br>
+注意: 需要先安装CUDA 10.1以及cuDNN 7.6.5。<br>
 <br>
 若不想安装CUDA/cuDNN，可以使用docker部署
 <pre>docker pull mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
 sudo nvidia-docker run -v /path/to/tr:/path/to/tr --rm -it mcr.microsoft.com/azureml/onnxruntime:v1.3.0-cuda10.1-cudnn7
-</pre>
+</pre> -->
 
 #### Install
 + 安装方法一
