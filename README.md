@@ -76,8 +76,8 @@ python -m tr.gui
 + 添加python2支持
 + 去除opencv-python、Pillow依赖，降低部署难度
 + 支持多线程
-+ 支持GPU
-+ 取消对Windows系统的支持
+<!-- + 支持GPU -->
+<!-- + 取消对Windows系统的支持 -->
 
 #### Requirements
 + python2/python3，需要安装numpy
