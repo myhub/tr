@@ -33,7 +33,7 @@
 + 多行CRNN对样本数量要求比单行CRNN高，加上Transformer模型本身对样本数量要求就高，如果希望针对通用OCR场景，还需要添加大量训练样本
 + 进一步测试多行CRNN是否适用于手写文字、表格、数学公式识别等场景
 
-# 参考项目
+#### 参考项目
 + https://github.com/BlinkDL/RWKV-LM
 
 
