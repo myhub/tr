@@ -34,6 +34,6 @@
 + 进一步测试多行CRNN是否适用于手写文字、表格、数学公式识别等场景
 
 #### 参考项目
++ https://github.com/OleehyO/TexTeller
 + https://github.com/BlinkDL/RWKV-LM
-
 
