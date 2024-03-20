@@ -14,6 +14,7 @@
 <tr><td><img width="320px" src="crnn_for_object_detection/imgs/test2.png" /></td>
 <td>&lt;dog&gt;002,301,234,497&lt;/dog&gt;&lt;person&gt;060,105,219,467&lt;/person&gt;&lt;person&gt;015,232,183,536&lt;/person&gt;&lt;person&gt;270,046,431,617&lt;/person&gt;</td></tr>
 </table>
+标注完成后就可以当多行文本识别任务送入多行CRNN进行训练了<br><br>
 
 未完成
 
