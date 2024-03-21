@@ -4,20 +4,6 @@
 
 编译环境: *Ubuntu 16.04*
 
-<!-- -----------------------------------------
-#### 让CRNN支持目标检测 CRNN For Object Detection :star:
-我们知道CRNN在文字/语音等不定长序列识别任务上应用广泛，那能否将CRNN应用于目标检测领域呢？接下来我将设计实验来验证。<br>
-首先使用XML对每张图片进行标注，对于多个目标，先按类别名称进行排序，再根据框的位置按从上到下从左到右进行排序，标注示例如下：
-<table>
-<tr><td><img width="320px" src="crnn_for_object_detection/imgs/test1.png" /></td>
-<td>&lt;cat&gt;014,178,340,365&lt;/cat&gt;&lt;cat&gt;296,146,618,361&lt;/cat&gt;</td></tr>
-<tr><td><img width="320px" src="crnn_for_object_detection/imgs/test2.png" /></td>
-<td>&lt;dog&gt;002,301,234,497&lt;/dog&gt;&lt;person&gt;060,105,219,467&lt;/person&gt;&lt;person&gt;015,232,183,536&lt;/person&gt;&lt;person&gt;270,046,431,617&lt;/person&gt;</td></tr>
-</table>
-标注完成后，目标检测就变成了不定长序列识别，可以使用多行CRNN进行训练，训练方法跟多行文本识别相同<br><br>
-
-未完成 -->
-
 -----------------------------------------
 #### 让CRNN支持多行文本的识别 CRNN For Text With Multiple Lines :star:
 将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别。标注时不再需要标注文本行的边界框，大大降低标注和开发人员的工作量。适用于弯曲文本等场景。<br>
