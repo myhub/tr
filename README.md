@@ -28,9 +28,8 @@
 如果我们把图像中的物体看成是一个个字符，那么图像识别任务不就是文字识别任务吗？<br>
 
 为了回答这个问题，我在PASCAL VOC数据集上进行了初步的验证，结论是多行CRNN模型不仅可以识别物体的类别，还能识别物体的个数。不过由于Transformer强大的记忆力，在训练集上比较容易过拟合，需要进行数据增强并提高训练样本数量。<br>
-<!-- 抢鲜体验：
-[crnn_for_classification](./crnn_for_classification/README.md) -->
-<br>
+抢鲜体验：
+[crnn_for_image_recognition](./crnn_for_image_recognition/README.md)
 
 -----------------------------------------
 #### 带Transformer的CRNN
