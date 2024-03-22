@@ -22,10 +22,11 @@
 
 抢鲜体验：
 [crnn_for_text_with_multiple_lines](./crnn_for_text_with_multiple_lines/README.md)
+<br>
 
-<!-- + OCR-free Document Understanding<br>
-目前端到端文档理解（不需要先进行文本行检测、识别）虽然精度有待提升，不过我还是觉得很有前途的，可以一个模型实现文字、图表、公式等内容的提取。<br>
-技术讨论：[discussions](https://github.com/myhub/tr/discussions/165) -->
+**Let's continue，多行CRNN适用于Image Classification任务吗？**<br>
+If we treat "object" as "character", then image classification task will become text recognition task.<br>
+如果我们把“物体”看成是“字符”，那么图像分类任务不就是文字识别任务吗!<br>
 
 -----------------------------------------
 #### 带Transformer的CRNN
