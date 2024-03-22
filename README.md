@@ -28,6 +28,7 @@
 If we treat "object" as "character", then image classification task will become text recognition task.<br>
 如果我们把“物体”看成是“字符”，例如把图像中的猫当成是字符“猫”，那么图像分类任务不就是文字识别任务吗!<br>
 
+
 -----------------------------------------
 #### 带Transformer的CRNN
 https://github.com/myhub/tr/tree/master/v2.8
