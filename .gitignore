@@ -20,6 +20,9 @@
 /crnn_for_text_with_multiple_lines/*.bin
 /crnn_for_text_with_multiple_lines/*.onnx
 
+/crnn_for_image_recognition/*.bin
+/crnn_for_image_recognition/*.onnx
+
 **/_imgs
 
 
