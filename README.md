@@ -27,8 +27,8 @@
 **Let's continue，多行CRNN适用于Image Classification任务吗？**<br>
 如果我们把图像中物体看成是一个个字符，那么图像分类任务不就是文字识别任务吗？<br>
 
-为了回答这个问题，我在VOC数据集上进行测试，效果我挺满意，不过由于transformer强大的记忆力，在训练集上比较容易过拟合，需要进行数据增强并提高样本规模。<br>
-欢迎点击下面的链接进行体验：
+为了回答这个问题，我在VOC数据集上进行测试，模型不仅可以识别物体的类别，还能识别出每种物体的个数，由于transformer强大的记忆力，在训练集上比较容易过拟合，需要进行数据增强并提高训练样本数量。<br>
+抢鲜体验：
 [crnn_for_classification](./crnn_for_classification/README.md)
 <br>
 
