@@ -25,7 +25,6 @@
 <br>
 
 **Let's continue，多行CRNN适用于Image Classification任务吗？**<br>
-If we treat "object" as "character", then image classification task will become text recognition task.<br>
 如果我们把图像中物体看成是一个个字符，那么图像分类任务不就是文字识别任务吗!<br>
 
 
