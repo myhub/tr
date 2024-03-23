@@ -24,12 +24,15 @@
 [crnn_for_text_with_multiple_lines](./crnn_for_text_with_multiple_lines/README.md)
 <br>
 
-#### Let's continue，多行CRNN适用于Image Recognition任务吗？
+#### Let's Continue，多行CRNN适用于Image Recognition任务吗？
 如果我们把图像中的物体看成是一个个字符，那么图像识别任务不就是文字识别任务吗？<br>
 
 为了回答这个问题，我在PASCAL VOC数据集上进行了初步的验证，结论是多行CRNN模型不仅可以识别物体的类别，还可以识别物体的个数。不过由于Transformer强大的记忆力，在训练集上比较容易过拟合，需要进行数据增强并提高训练样本数量。<br>
 抢鲜体验：
 [crnn_for_image_recognition](./crnn_for_image_recognition/README.md)
+
+#### 接下来让我们挑战一个难倒无数大语言模型的任务
+最近大语言模型真的好火，如何将CRNN技术应用到LLM呢？首先需要对多行CRNN进行改造，将ResNet特征提取层替换成nn.Embedding，这样模型就可以支持文本输入了。为了方便区分，对改造后的多行CRNN模型简称Text CRNN。
 
 -----------------------------------------
 #### 带Transformer的CRNN
