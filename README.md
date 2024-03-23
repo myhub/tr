@@ -36,7 +36,7 @@
 
 之前有篇[论文](https://arxiv.org/pdf/2305.14201.pdf)提到LLM对3位整数乘法Unlearnable：
 ![arithmetic_tasks](ChatCRNN/arithmetic_tasks.png)
-那ChatCRNN对3位整数乘法也是Unlearnable吗？
+不过尺有所短寸有所长，3位整数乘法对ChatCRNN而言还算比较容易学习的。
 
 -----------------------------------------
 #### 带Transformer的CRNN
