@@ -22,7 +22,6 @@
 
 抢鲜体验：
 [crnn_for_text_with_multiple_lines](./crnn_for_text_with_multiple_lines/README.md)
-<br>
 
 #### Let's Continue，多行CRNN适用于Image Recognition任务吗？
 如果我们把图像中的物体看成是一个个字符，那么图像识别任务不就是文字识别任务吗？<br>
