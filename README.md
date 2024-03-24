@@ -19,6 +19,7 @@
 <img width="180px" src="crnn_for_text_with_multiple_lines/imgs/test8.png" style="float:left;width:180px;" />
 </div>
 <div style="clear:both;"></div><br />
+
 抢鲜体验：
 [crnn_for_text_with_multiple_lines](./crnn_for_text_with_multiple_lines/README.md)
 <br>
