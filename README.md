@@ -38,6 +38,9 @@
 ![arithmetic_tasks](ChatCRNN/arithmetic_tasks.png)
 不过尺有所短寸有所长，通过实验我发现3位整数乘法对ChatCRNN而言还算比较容易学习的，单卡训练半小时内可达到100%精度。<br>
 
+更多技术细节请访问：
+[ChatCRNN](./ChatCRNN/README.md)
+
 -----------------------------------------
 #### 带Transformer的CRNN
 https://github.com/myhub/tr/tree/master/v2.8
