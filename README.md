@@ -31,12 +31,12 @@
 抢鲜体验：
 [crnn_for_image_recognition](./crnn_for_image_recognition/README.md)
 
-#### 接下来让我们挑战一个难倒无数大语言模型的任务
-最近大语言模型真的好火，如何将CRNN技术应用到LLM呢？首先需要对多行CRNN进行改造，将ResNet特征提取层替换成nn.Embedding，这样模型就可以支持文本输入了，为了方便区分，对改造后的模型简称为ChatCRNN。<br>
+#### 接下来让我们挑战一个难倒国内外无数大语言模型的任务
+最近大语言模型真的好火，如何将CRNN技术应用到LLM呢？首先需要对多行CRNN进行改造以支持文本输入，只需将卷积特征提取层替换成nn.Embedding即可，为了方便区分，对改造后的模型简称为ChatCRNN。<br>
 
 之前有篇[论文](https://arxiv.org/pdf/2305.14201.pdf)提到LLM对3位整数乘法Unlearnable：
 ![arithmetic_tasks](ChatCRNN/arithmetic_tasks.png)
-不过尺有所短寸有所长，3位整数乘法对ChatCRNN而言还算比较容易学习的。
+不过尺有所短寸有所长，通过实验我发现3位整数乘法对ChatCRNN而言还算比较容易学习的，单卡训练半小时内可达到100%精度。<br>
 
 -----------------------------------------
 #### 带Transformer的CRNN
