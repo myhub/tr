@@ -19,7 +19,6 @@
 <img width="180px" src="crnn_for_text_with_multiple_lines/imgs/test8.png" style="float:left;width:180px;" />
 </div>
 <div style="clear:both;"></div><br />
-
 抢鲜体验：
 [crnn_for_text_with_multiple_lines](./crnn_for_text_with_multiple_lines/README.md)
 <br>
@@ -37,7 +36,6 @@
 之前有篇[论文](https://arxiv.org/pdf/2305.14201.pdf)提到LLM对3位整数乘法Unlearnable：
 ![arithmetic_tasks](ChatCRNN/arithmetic_tasks.png)
 不过尺有所短寸有所长，通过实验我发现3位整数乘法对ChatCRNN而言还算比较容易学习的，单卡训练半小时内可达到100%精度。<br>
-
 更多技术细节请访问：
 [ChatCRNN](./ChatCRNN/README.md)
 
