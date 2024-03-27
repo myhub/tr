@@ -8,3 +8,6 @@ https://www.zhihu.com/question/605567747/answer/3441552623
 <tr><td>三位整数乘法</td><td>完美解决</td><td>不依赖CoT、编程等方式</td></tr>
 <tr><td>四位整数乘法</td><td>待验证</td><td>不依赖CoT、编程等方式</td></tr>
 </table>
+
+**状态说明**<br>
+完美解决：指推理精度达到100%
