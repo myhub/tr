@@ -1,6 +1,6 @@
 # ChatCRNN
 
-本项目暂时没有任何实用价值，仅用于测试Transformer的推理能力，算法细节可参考：
+本项目暂时没有任何实用价值，仅用于测试Transformer的推理能力，算法细节可参考：<br>
 https://www.zhihu.com/question/605567747/answer/3441552623
 
 <table>
