@@ -12,6 +12,12 @@ https://www.zhihu.com/question/605567747/answer/3441552623
 
 </td></tr>
 <tr><td>四位整数乘法</td><td>待验证</td><td>不依赖CoT、编程等任何辅助方式</td></tr>
+<tr><td>逻辑运算
+<ul>
+<li>A=2,B=A-1,C=max(A, B),B+A-C=?</li>
+<li>B=A+1,C=max(A, B),A=5,min(B,C)+A=?</li>
+</ul>
+</td><td>待验证</td><td>不依赖CoT、编程等任何辅助方式</td></tr>
 </table>
 
 **状态说明**<br>
