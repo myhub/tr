@@ -23,6 +23,9 @@
 /crnn_for_image_recognition/*.bin
 /crnn_for_image_recognition/*.onnx
 
+/ChatCRNN/*.bin
+/ChatCRNN/*.onnx
+
 **/_imgs
 
 
