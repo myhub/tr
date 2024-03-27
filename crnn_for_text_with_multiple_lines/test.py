@@ -9,7 +9,7 @@ from pathlib import Path
 try:
     import ort
 except:
-    raise Exception("install ort first by pip install ort==1.0.5")
+    raise Exception("install ort first by pip install ort==1.2.1")
 
 os.chdir(Path(__file__).parent)
 

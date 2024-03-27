@@ -18,7 +18,7 @@
 运行环境：
   Ubuntu18+
 安装依赖：
-  pip install ort==1.0.5
+  pip install ort==1.2.1
 
 下载 https://github.com/myhub/tr/releases/download/2.8.1/crnn_plus_v1_3.zip 文件后解压
 执行 python test.py 即可
