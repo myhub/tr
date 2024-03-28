@@ -35,7 +35,7 @@
 
 之前有篇[论文](https://arxiv.org/pdf/2305.14201.pdf)提到LLM对3位整数乘法Unlearnable：
 ![arithmetic_tasks](ChatCRNN/arithmetic_tasks.png)
-不过尺有所短寸有所长，通过实验我发现3位整数乘法对ChatCRNN而言还算比较容易学习的，单卡训练半小时内可达到100%精度。<br>
+不过尺有所短寸有所长，通过实验我发现3位整数乘法对ChatCRNN而言还算比较容易学习的，单卡训练半小时内可达到99.99%以上精度。<br>
 更多技术细节可以参考我的[知乎回答](https://www.zhihu.com/question/605567747/answer/3441552623)
 
 抢鲜体验：
