@@ -1,13 +1,9 @@
-import warnings
 import torch
-import torch.nn as nn
-import time
-import os
-import random
+from torch.utils.data import Dataset
+import os, sys
+# import random
 from random import SystemRandom
 random = SystemRandom()
-from torch.utils.data import Dataset
-import sys
 
 class MyDataset(Dataset): 
     def __init__(self, ain_size=48, aout_size=16):
