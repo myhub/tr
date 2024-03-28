@@ -5,8 +5,11 @@ https://www.zhihu.com/question/605567747/answer/3441552623
 
 <table>
 <tr><th>任务</th><th>状态</th><th>说明</th></tr>
-<tr><td>三位整数乘法</td><td>测试精度约为99.994%</td><td>不依赖CoT、编程等任何辅助方式
-
+<tr><td>三位整数乘法</td><td>
+<br>
+测试精度约为99.994%</td><td>不依赖CoT、编程等任何辅助方式
+<br>单卡训练半小时
+<br>7层Transformer
 [训练数据集](./dataset_m3.py)
 [测试代码](https://github.com/myhub/tr/releases/download/2.8.1/ChatCRNN_m3.zip)
 
