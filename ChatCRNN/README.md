@@ -32,7 +32,7 @@ Transformer层数：7<br>
 不依赖CoT、编程等任何辅助方式<br>
 Transformer层数：7<br>
 
-<!-- [训练数据集](./dataset_m3.py) -->
+[训练数据集](./dataset_m4.py)
 [测试代码](https://github.com/myhub/tr/releases/download/2.8.1/ChatCRNN_m4.zip)
 
 </td>
