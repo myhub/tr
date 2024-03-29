@@ -54,4 +54,7 @@ Transformer层数：7<br>
 </tr>
 </table>
 
+#### 实验总结
+TransformerEncoder+CTCLoss组合已经在多行文本识别、图像识别、多位整数乘法、数数等不同任务上表现出了很强的适应性。
+
 
