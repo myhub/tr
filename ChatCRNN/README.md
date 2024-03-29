@@ -41,8 +41,13 @@ Transformer层数：7<br>
 <tr><td>数数<br>
 https://www.zhihu.com/question/632647147
 </td>
-<td>待验证</td>
-<td>不依赖CoT、编程等任何辅助方式</td>
+<td>测试精度约为99.98100%</td>
+<td>
+不依赖CoT、编程等任何辅助方式<br>
+Transformer层数：7<br>
+
+
+</td>
 
 </tr>
 </table>
