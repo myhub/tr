@@ -46,6 +46,7 @@ https://www.zhihu.com/question/632647147
 不依赖CoT、编程等任何辅助方式<br>
 Transformer层数：7<br>
 
+[训练数据集](./dataset_count.py)
 [测试代码](https://github.com/myhub/tr/releases/download/2.8.1/ChatCRNN_count.zip)
 
 </td>
