@@ -38,9 +38,13 @@ Transformer层数：7<br>
 </td>
 
 </tr>
-<tr><td>数数 
+<tr><td>数数<br>
 https://www.zhihu.com/question/632647147
-</td><td>待验证</td><td>不依赖CoT、编程等任何辅助方式</td></tr>
+</td>
+<td>待验证</td>
+<td>不依赖CoT、编程等任何辅助方式</td>
+
+</tr>
 </table>
 
 <!-- **状态说明**<br>
