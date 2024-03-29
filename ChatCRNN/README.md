@@ -46,11 +46,11 @@ https://www.zhihu.com/question/632647147
 不依赖CoT、编程等任何辅助方式<br>
 Transformer层数：7<br>
 
+[测试代码](https://github.com/myhub/tr/releases/download/2.8.1/ChatCRNN_count.zip)
 
 </td>
 
 </tr>
 </table>
 
-<!-- **状态说明**<br>
-完美解决：指推理精度达到100% -->
+
