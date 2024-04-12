@@ -15,7 +15,7 @@ https://www.zhihu.com/question/605567747/answer/3441552623
 不依赖CoT、编程等任何辅助方式<br>
 Transformer层数：7<br>
 
-[训练数据集]()
+[训练数据集](./dataset_m3.py)
 [测试代码]()
 
 </td>
