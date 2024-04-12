@@ -15,6 +15,9 @@
 
 因此，我认为端到端文档理解是更可行的技术方案。从算法角度而言，就是需要将图片编码成一维序列，使得TransformerDecoder可以像处理文本一样处理图片。
 
+相关研究：
++ [TransformerDecoder](./TransformerDecoder/README.md)
+
 -----------------------------------------
 #### 让CRNN支持多行文本的识别 CRNN For Text With Multiple Lines :star:
 将CRNN与Transformer Encoder/Decoder相结合，从而使CRNN支持多行文本的识别。标注时不再需要标注文本行的边界框，大大降低标注和开发人员的工作量。适用于弯曲文本等场景。<br>
