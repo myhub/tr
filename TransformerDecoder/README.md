@@ -16,7 +16,7 @@ https://www.zhihu.com/question/605567747/answer/3441552623
 Transformer层数：7<br>
 
 [训练数据集](./dataset_m3.py)
-[测试代码]()
+[测试代码](https://github.com/myhub/tr/releases/download/2.8.2/GPT_m3.zip)
 
 </td>
 
