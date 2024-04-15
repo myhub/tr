@@ -40,8 +40,10 @@ Transformer层数：7<br>
 </td>
 
 </tr>
-<tr><td>数数<br>
-https://www.zhihu.com/question/632647147
+<tr><td>数数
+
+[问题描述](https://www.zhihu.com/question/632647147)
+
 </td>
 <td>测试精度约为99.981%</td>
 <td>
