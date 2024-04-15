@@ -24,4 +24,24 @@ Transformer层数：7<br>
 
 </tr>
 
+<tr><td>数数
+
+[问题描述](https://www.zhihu.com/question/632647147)
+
+</td>
+<td>测试精度约为99.974%</td>
+<td>
+不依赖CoT、编程等任何辅助方式<br>
+Transformer层数：7<br>
+
+[训练数据集](./dataset_count.py)
+[测试代码](https://github.com/myhub/tr/releases/download/2.8.2/GPT_count.zip)
+
+</td>
+
+</tr>
+
+
 </table>
+
+
