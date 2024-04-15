@@ -10,7 +10,7 @@ https://www.zhihu.com/question/605567747/answer/3441552623
 <tr><td>三位整数乘法</td>
 
 <td>
-测试精度约为99.995%
+测试精度约为99.991%
 </td>
 
 <td>
