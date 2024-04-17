@@ -47,7 +47,6 @@ Transformer层数：7<br>
 </td>
 <td>测试精度约为99.981%</td>
 <td>
-按“single character”分词<br>
 不依赖CoT、编程等任何辅助方式<br>
 Transformer层数：7<br>
 
