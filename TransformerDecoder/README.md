@@ -24,13 +24,14 @@ Transformer层数：7<br>
 
 </tr>
 
-<tr><td>数数
+<tr><td>数数(统计字符串中字母的个数)
 
 [问题描述](https://www.zhihu.com/question/632647147/answer/3446033605)
 
 </td>
 <td>测试精度约为99.974%</td>
 <td>
+按“single character”分词<br>
 不依赖CoT、编程等任何辅助方式<br>
 Transformer层数：7<br>
 
@@ -41,6 +42,24 @@ Transformer层数：7<br>
 
 </tr>
 
+
+<tr><td>数数(统计字符串中字母的个数)
+
+[问题描述](https://www.zhihu.com/question/632647147/answer/3446033605)
+
+</td>
+<td>测试精度约为99.937%</td>
+<td>
+按“single word”分词<br>
+不依赖CoT、编程等任何辅助方式<br>
+Transformer层数：7<br>
+
+[训练数据集](./dataset_count_word.py)
+[测试代码](https://github.com/myhub/tr/releases/download/2.8.2/GPT_count_word.zip)
+
+</td>
+
+</tr>
 
 </table>
 
