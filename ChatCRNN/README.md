@@ -40,13 +40,13 @@ Transformer层数：7<br>
 </td>
 
 </tr>
-<tr><td>数数(统计字符串中字母的个数)
-
+<tr><td>数数
 [问题描述](https://www.zhihu.com/question/632647147/answer/3446033605)
 
 </td>
 <td>测试精度约为99.981%</td>
 <td>
+统计字符串中字母的个数<br>
 不依赖CoT、编程等任何辅助方式<br>
 Transformer层数：7<br>
 
