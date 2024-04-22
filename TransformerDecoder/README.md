@@ -67,6 +67,6 @@ Transformer层数：7<br>
 
 #### 算法不足
 + 在一些NLP任务（例如小说续写）上效果较差
-+ 当batch_size过大（大于64）时模型难以收敛，过小的batch_size导致模型训练效率降低
++ 当batch_size过大（例如超过64）时模型难以收敛，过小的batch_size导致模型训练效率降低
 
 
