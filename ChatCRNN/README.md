@@ -84,3 +84,4 @@ https://huggingface.co/learn/audio-course/chapter3/ctc
 + 在一些NLP任务（例如小说续写）上效果较差
 + 当batch_size过大（例如超过64）时模型难以收敛，过小的batch_size导致模型训练效率降低
 + 训练不稳定，容易发生梯度爆炸
++ 多个任务一起训练（例如同时学习乘法和数数），会导致模型精度大幅下降
