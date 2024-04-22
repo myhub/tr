@@ -65,7 +65,7 @@ TransformerEncoder+CTCLoss组合已经在多行文本识别、图像识别、多
 在语音识别领域，TransformerEncoder+CTCLoss组合也有着广泛的应用：
 https://huggingface.co/learn/audio-course/chapter3/ctc
 
-#### 问题总结
+#### 问题记录
 + 在一些NLP任务（例如小说续写）上效果较差
 + 当batch_size过大（例如超过64）时模型难以收敛，过小的batch_size导致模型训练效率降低
 + 训练不稳定，容易发生梯度爆炸
