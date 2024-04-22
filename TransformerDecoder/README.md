@@ -24,6 +24,19 @@ Transformer层数：7<br>
 
 </tr>
 
+<tr><td>四位整数乘法</td>
+
+<td>
+暂时无法收敛
+</td>
+
+<td>
+
+
+</td>
+
+</tr>
+
 <tr><td>数数
 
 [问题描述](https://www.zhihu.com/question/632647147/answer/3446033605)
