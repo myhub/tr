@@ -18,20 +18,7 @@ https://www.zhihu.com/question/605567747/answer/3441552623
 Transformer层数：7<br>
 
 [训练数据集](./dataset_m3.py)
-<!-- [测试代码](https://github.com/myhub/tr/releases/download/2.8.2/GPT_m3.zip) -->
-
-</td>
-
-</tr>
-
-<tr><td>四位整数乘法</td>
-
-<td>
--
-</td>
-
-<td>
-暂时无法收敛
+[测试代码](https://github.com/myhub/models/releases/download/1.0/GPT_m3.zip)
 
 </td>
 
@@ -50,7 +37,7 @@ Transformer层数：7<br>
 Transformer层数：7<br>
 
 [训练数据集](./dataset_count.py)
-<!-- [测试代码](https://github.com/myhub/tr/releases/download/2.8.2/GPT_count.zip) -->
+[测试代码](https://github.com/myhub/models/releases/download/1.0/GPT_count.zip)
 
 </td>
 
@@ -70,16 +57,10 @@ Transformer层数：7<br>
 Transformer层数：7<br>
 
 [训练数据集](./dataset_count_word.py)
-<!-- [测试代码](https://github.com/myhub/tr/releases/download/2.8.2/GPT_count_word.zip) -->
+[测试代码](https://github.com/myhub/models/releases/download/1.0/GPT_count_word.zip)
 
 </td>
 
 </tr>
 
 </table>
-
-#### 问题记录
-+ 当batch_size过大（例如超过64）时模型难以收敛，过小的batch_size导致模型训练效率降低
-+ 训练不稳定，容易发生梯度爆炸
-+ 多个任务一起训练（例如同时学习乘法和数数），会导致模型精度大幅下降
-

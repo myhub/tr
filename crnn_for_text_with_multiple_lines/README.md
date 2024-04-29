@@ -13,16 +13,16 @@
 + 目前对训练样本进行了随机-15到15度的旋转，如果文本行的倾斜角度过大，识别效果会变差。对于弯曲文本，每个字符的倾斜角度不一样，倾斜角度过大的字符识别效果会比较差
 + 由于合成样本中字体大小集中在14到72像素之间，对于过小或过大的字符识别效果会比较差
 
-<!-- #### 推理测试
+#### 推理测试
 <pre>
 运行环境：
   Ubuntu18+
 安装依赖：
   pip install ort==1.2.1
 
-下载 https://github.com/myhub/tr/releases/download/2.8.1/crnn_plus_v1_3.zip 文件后解压
+下载 https://github.com/myhub/models/releases/download/1.0/crnn_plus_v1_3.zip 文件后解压
 执行 python test.py 即可
-</pre> -->
+</pre>
 
 #### 改进方向
 + 目前特征提取直接使用ResNet将原图下采样到(H<sub>in</sub>/16, W<sub>in</sub>/16)，再将特征Rearrange("B C H W->B (H W) C")后送入Transformer，而标准CRNN是将原图下采样到(H<sub>in</sub>/32, W<sub>in</sub>/4)。加大下采样的倍数，虽然可以显著降低计算量，但可能会导致小号字符难以学习，训练过程中也发现小号字符难以训练。可以考虑将特征提取ResNet替换成ViT或SWin等常见的ImageEncoder。
