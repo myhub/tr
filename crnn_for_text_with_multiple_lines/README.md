@@ -35,5 +35,6 @@
 
 #### 参考项目
 + https://github.com/OleehyO/TexTeller
++ https://github.com/karpathy/nanoGPT
 + https://github.com/BlinkDL/RWKV-LM
 
