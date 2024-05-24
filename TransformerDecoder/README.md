@@ -64,3 +64,10 @@ Transformer层数：7<br>
 </tr>
 
 </table>
+
+#### 路径规划
+1. [基于Transformer的路径规划 - 第一篇 探索](https://zhuanlan.zhihu.com/p/695503967)
+2. [基于Transformer的路径规划 - 第二篇 合成数据](https://zhuanlan.zhihu.com/p/697518598)
+3. [基于Transformer的路径规划 - 第三篇 Attention Is All You Need](https://zhuanlan.zhihu.com/p/698148082)
+4. [基于Transformer的路径规划 - 第四篇 GPT模型优化](https://zhuanlan.zhihu.com/p/699122636)
+5. [基于Transformer的路径规划 - 第五篇 GPT生成策略_解码方法优化](https://zhuanlan.zhihu.com/p/699367747)
