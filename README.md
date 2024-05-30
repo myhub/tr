@@ -4,6 +4,9 @@
 
 编译环境: *Ubuntu 16.04*
 
+#### 为什么开发tr？
+我在开发tr时，网上只有[chineseocr](https://github.com/chineseocr/chineseocr)、 [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)等少数开源OCR。tr发布后，又诞生了几款优秀的开源OCR，tr也基本上完成了自己的使命，会转为一个研究型项目。
+
 -----------------------------------------
 #### 端到端文档理解 Document Understanding（研发中）
 多模态大模型宛如当年的互联网浪潮一样，汹涌而来，不可逆转。在不远的将来能否更好地融入多模态大模型生态，对OCR算法来说至关重要。<br>
