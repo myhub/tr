@@ -6,7 +6,7 @@
 
 #### 为什么开发tr？
 我刚开发tr时，网上只有[chineseocr](https://github.com/chineseocr/chineseocr)、 [tesseract](https://github.com/tesseract-ocr/tesseract)等少数开源OCR。tr发布后，又诞生了几款优秀的开源OCR。tr也基本上完成了自己的使命，会转为一个研究型项目，追求技术的先进性而不是实用性。
-
+<!-- 
 -----------------------------------------
 #### 端到端文档理解 Document Understanding（研发中）
 多模态大模型宛如当年的互联网浪潮一样，汹涌而来，不可逆转。在不远的将来能否更好地融入多模态大模型生态，对OCR算法来说至关重要。<br>
@@ -56,7 +56,7 @@
 以前我们经常需要单独训练一个语言模型来对OCR识别结果进行纠错，往后没必要那么麻烦了，因为加入多层TransformerEncoder后CRNN模型已经具备了语言模型的能力。
 
 抢鲜体验：
-[ChatCRNN](./ChatCRNN/README.md)
+[ChatCRNN](./ChatCRNN/README.md) -->
 
 -----------------------------------------
 #### 带Transformer的CRNN
