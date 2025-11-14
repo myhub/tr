@@ -6,6 +6,11 @@
 
 #### 为什么开发tr？
 我刚开发tr时，网上只有[chineseocr](https://github.com/chineseocr/chineseocr)、 [tesseract](https://github.com/tesseract-ocr/tesseract)等少数开源OCR。tr发布后，又诞生了几款优秀的开源OCR。tr也基本上完成了自己的使命，会转为一个研究型项目，追求技术的先进性而不是实用性。
+
+#### 暂停维护说明
+在研究OCR的过程中，我发现了更有趣的Transformer技术，这是一种有希望单个算法解决绝大部分深度学习任务（包括OCR）的技术。未来的算法工程师可能不再需要学习各种各样的算法，只需要学习一款算法即可
+
+
 <!-- 
 -----------------------------------------
 #### 端到端文档理解 Document Understanding（研发中）
@@ -57,7 +62,7 @@
 
 抢鲜体验：
 [ChatCRNN](./ChatCRNN/README.md) -->
-
+<!--
 -----------------------------------------
 #### 带Transformer的CRNN
 https://github.com/myhub/tr/tree/master/v2.8
@@ -90,6 +95,9 @@ print("".join(chars))                           # 打印结果
 python -m tr.gui
 </pre>
 -----------------------------------------
+
+-->
+
 <!--
 #### v2.6版本体验
 + 采用当前流行的YOLO系列主干网络
